@@ -16,7 +16,7 @@ class cmsTemplate {
     protected $layout_params = array();
     protected $output;
     protected $blocks = array();
-    protected $options;
+    public $options;
     protected $site_config;
 
 	protected $head = array();
